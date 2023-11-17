@@ -1,0 +1,62 @@
+header{
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    color: #fff;
+    display: flex;
+    justify-content:space-between;
+    height: 15vh;
+    background-color: #1b1b1b;
+    text-align:center ;
+}
+.Navbar{
+    margin-top: 30px;
+    padding-inline: 20px;
+    margin-left: 700px;
+}
+
+.Navbar-logo{
+    justify-self: start;
+    margin-left: 20px;
+    color: #fff;
+    margin-top: 4vh;
+    cursor: pointer;
+}
+
+nav{
+    margin-top: 30px;
+}
+.seeCarrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 30px;
+    cursor: pointer;    
+}
+
+.Registrarse{
+    font-size: 22px;
+  cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    justify-self:end;
+    margin-inline: 20px;
+
+}
+
+.Login{
+    font-size: 22px;
+    margin-top: 4vh;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+.user{
+    margin-top: 30px;
+    font-size: 22px;
+    cursor: pointer;
+    justify-content:space-between;
+    margin-left: 10px;
+}
+.Username{
+    margin-right:0px ;
+}
