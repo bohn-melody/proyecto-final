@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return(
     <DataProvider>
-  <BrowserRouter>
+  <BrowserRouter basename="/repo_react">
   <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/cart' element={<Carrito/>}/>
